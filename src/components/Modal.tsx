@@ -27,7 +27,7 @@ export default function Modal(
                 What is Prompt GPT?
             </h1>
             <p className='prose md:prose-md prose-sm text-white/70'>
-                Prompt GPT is a web application that uses OpenAI's GPT-4 API to generate text based on a prompt. It is a simple interface that allows you to quickly generate text based on a prompt that will generate powerful responses based on the prompt.
+                Prompt GPT is a web application that uses OpenAI&apos;s GPT-4 API to generate text based on a prompt. It is a simple interface that allows you to quickly generate text based on a prompt that will generate powerful responses based on the prompt.
             </p>
             <h1 className='text-sm uppercase tracking-widest font-bold prose prose-xl text-white'>
                 Tech Stack:
