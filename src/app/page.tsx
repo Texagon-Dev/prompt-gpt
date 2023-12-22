@@ -10,6 +10,8 @@ import toast, { Toaster } from 'react-hot-toast';
 import { SYSTEM_PROMPT } from './prompts'
 import Modal from '@/components/Modal'
 
+export const runtime = 'edge';
+
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
   const system_message: Message[] = [
