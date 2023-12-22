@@ -15,7 +15,7 @@ export default function OutputBox({
                     prompt
                 </h1>
             </div>
-            <div className='flex text-sm md:text-lg whitespace-pre-wrap flex-col h-full mt-4 overflow-y-auto'>
+            <div className='flex text-sm md:text-lg whitespace-break-spaces flex-col h-full mt-4 overflow-y-auto'>
                 {props.output.map((message, index) => {
                     return (
                         <div key={index} className='flex flex-row items-center'>

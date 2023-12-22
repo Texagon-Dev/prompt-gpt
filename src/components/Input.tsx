@@ -12,7 +12,7 @@ export default function InputBox(
     }
 ) {
     return (
-        <form onSubmit={props.onSubmit} className='mainBody flex flex-row w-full lg:w-2/3 p-2 rounded-full items-center border border-text bg-main justify-between transition-all focus-within:ring-4 focus-within:ring-yellow-500/40'>
+        <form onSubmit={props.onSubmit} className='mainBody flex flex-row w-full lg:w-2/3 p-2 rounded-full items-center border border-text bg-main justify-between transition-all focus-within:ring-4 focus-within:ring-yellow-200/30'>
             <input
                 value={props.input}
                 onChange={props.handleInputChange}

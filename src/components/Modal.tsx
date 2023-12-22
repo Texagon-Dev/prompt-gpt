@@ -16,7 +16,7 @@ export default function Modal(
     ]
     return (
         isOpen &&
-        <div className='modal py-12 px-12 flex flex-col justify-center items-start bg-main/80 relative border border-white/20 text-text rounded-lg p-4 prose prose-lg space-y-4'>
+        <div className='modal py-12 px-12 flex flex-col justify-center items-start bg-main/80 relative border border-white/20 text-text rounded-lg p-4 prose prose-lg space-y-4 filter backdrop-blur-2xl'>
             <button 
                 onClick={() => setIsOpen(false)}
                 className='bg-text hover:bg-white transition-all ease-linear border border-white/40 text-sm text-main uppercase tracking-widest md:text-sm rounded-full px-3 py-1 absolute -top-4 flex flex-row items-center'>
