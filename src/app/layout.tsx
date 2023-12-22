@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Prompt GPT',
   description: 'An experiment to generate prompts for LLMs',
+  icons: '/logo.png'
 }
 
 export default function RootLayout({
